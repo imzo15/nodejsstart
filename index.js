@@ -4,6 +4,7 @@ const https = require("https");
 const url = require("url");
 const fs = require("fs");
 const StringDecoder = require("string_decoder").StringDecoder;
+var _data = require('./lib/data');
 
 // Instantiate HTTP server
 const httpServer = http.createServer(function(req, res) {
