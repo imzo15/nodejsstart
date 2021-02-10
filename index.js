@@ -77,7 +77,7 @@ var unifiedServer = function(req, res) {
             res.end(payloadString);
 
 
-            console.log(`Request received on path: ${trimmedPath} with method: ${method} and with theser query string parameters `);
+            console.log(`Request received on path: ${trimmedPath} with method: ${method} and with these query string parameters `);
             console.log(queryStringObject);
             console.log(`Request received with these headers`);
             console.log(headers);
